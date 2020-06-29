@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+    <br />
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+
+            <h2 class="text-primary"> Lista de Articulos</h2>
+
+        </div>
+        <div class="col-6 text-right">
+
+            <a asp-action="create" class="btn btn-primary"> <i class="fas fa-plus"></i> Crear Nuevo Articulo </a>
+
+        </div>
+
+        <hr />
+
+
+
+
+    </div>
+
+
+    <hr />
+
+
+    <table id="tblArticulos" class="table table-striped" style="width: 100%; ">
+        <thead>
+            <tr>
+                <td>ID </td>
+                <td>Nombre </td>
+                <td>Categoria </td>
+                <td>Fecha Creacion </td>
+                <td> </td>
+            </tr>
+        </thead>
+    </table>
+</div>
+
+
+@section scripts{
+
+    <script src="~/js/Articulo.js"></script>
+}

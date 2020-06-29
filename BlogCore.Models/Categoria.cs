@@ -17,6 +17,8 @@ namespace BlogCore.Models
 
         [Required]
         [Display(Name = "Orden de Visualizacion")]
-        public string Orden { get; set; }
+        public int Orden { get; set; }
+
+
     }
 }

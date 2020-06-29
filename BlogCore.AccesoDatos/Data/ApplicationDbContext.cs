@@ -17,7 +17,9 @@ namespace BlogCore.AccesoDatos.Data
 
         //CONTEXTO DEONDE DEBE IR MAPEADO TODAS LA TABLAS
         public DbSet<Categoria> Categoria { get; set; }
-        
+
+        public DbSet<Articulo> Articulo { get; set; }
+
 
     }
 }
